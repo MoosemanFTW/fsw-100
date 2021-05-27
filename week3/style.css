@@ -1,0 +1,26 @@
+h1 {
+    color: darkgreen
+}
+.head-lines {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center
+}
+div p {
+    line-height: 25px;
+}
+a {
+    text-decoration: none;
+}
+#pre-link{
+    text-transform: uppercase;
+}
+a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+img {
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 50px
+}
