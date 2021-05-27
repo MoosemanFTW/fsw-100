@@ -1,0 +1,14 @@
+table, th, td, tr {
+    border: 1px solid black;
+}
+h1 {
+    color: blue
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+    color: purple;
+}
