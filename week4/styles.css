@@ -1,0 +1,36 @@
+.navBar {
+    position: sticky;
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(55,44,22,.4);
+}
+.about {
+    position: relative;
+    left: 315px;
+}
+.menu {
+    position: relative;
+    left: 150px;
+}
+.div1{
+    padding: 10px;
+    border: 8px lightgray solid;
+    margin: 20px;
+    
+}
+.title1{
+  
+}
+.date1{
+     /*display: inline-block;*/
+}
+
+.article1{
+    /*display: inline-block;*/
+}
+.beansImg{
+    width: 150px;
+    height: 150px;
+     /*display: inline-block;*/
+    float: left;
+}
