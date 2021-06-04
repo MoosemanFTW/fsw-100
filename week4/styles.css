@@ -16,7 +16,8 @@
     padding: 10px;
     border: 8px lightgray solid;
     margin: 20px;
-    
+    min-height: 220px;
+    min-width: 500px;
 }
 .title1{
   
@@ -33,4 +34,12 @@
     height: 150px;
      /*display: inline-block;*/
     float: left;
+    padding: 10px;
+}
+.candle{
+    width: 150px;
+    height: 150px;
+     /*display: inline-block;*/
+    float: left;
+    padding: 10px;
 }

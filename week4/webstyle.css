@@ -1,0 +1,41 @@
+.navBar {
+    position: sticky;
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(55,44,22,.4);
+    font-family: 'Sigmar One';
+}
+.about {
+    position: relative;
+    left: 315px;
+}
+.menu {
+    position: relative;
+    left: 150px;
+}
+body{
+    background-color: lightblue;
+}
+#main{
+    position: relative;
+    text-align: center;
+    border: solid black;
+}
+#art1{
+    height: 150px;
+    width: 50%;
+    border: solid black;
+    font-family: 'Roboto','open-Sans'
+}
+.img{
+    height: 250px;
+    position: absolute;
+    left: 52%;
+    bottom: 60%;
+    border: solid black;
+}
+#sec{
+    border: solid black;
+    margin: 10px;
+    width: 50%;
+}
