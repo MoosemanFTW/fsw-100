@@ -1,0 +1,88 @@
+
+.box1{
+    background-color: #F5C6D6;
+    grid-area: first;
+    margin: 5px;
+    
+}
+.box21{
+    grid-area: second1;
+    background-color: #EE2E84;
+    margin: 5px;
+    
+}
+.box22{
+    grid-area: second2;
+    background-color: #EE2E84;
+    margin: 5px;
+    
+}
+.box23{
+    grid-area: second3;
+    background-color: #EE2E84;
+    margin: 5px;
+    
+}
+.box24{
+    grid-area: second4;
+    background-color: #EE2E84;
+    margin: 5px;
+    
+}
+.box31{
+    grid-area: third;
+    background-color: #85CFD8;
+    margin: 5px;
+}
+.box32{
+    grid-area: third2;
+    background-color: #85CFD8;
+    margin: 5px;
+}
+.box4{
+    grid-area: forth;
+    background-color: #8DC63F;
+    margin: 5px;
+}
+.box5{
+    grid-area: fith;
+    background-color: #E76E34;
+    margin: 5px;
+}
+
+body{
+    display: grid;
+    
+}
+
+@media (max-width: 768px){
+body{
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(9,1fr);
+    grid-template-areas:
+    'first'
+    'second1'
+    'second2'
+    'second3'
+    'second4'
+    'third'
+    'third'
+    'third2'
+    'third2'
+    'forth'
+    'forth'
+    'forth'
+    'fith'
+    }
+}
+@media (min-width: 769px){
+body{
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: 
+    'first first first first'
+    'second1 second2 second3 second4'
+    'third third third2 third2'
+    'forth forth forth fith'
+    }
+}
