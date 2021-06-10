@@ -52,11 +52,17 @@
 
 body{
     display: grid;
-    
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas: 
+    'first first first first'
+    'second1 second2 second3 second4'
+    'third third third2 third2'
+    'forth forth forth fith'
 }
 
 @media (max-width: 768px){
-body{
+body {
     grid-template-columns: 100%;
     grid-template-rows: repeat(9,1fr);
     grid-template-areas:
@@ -76,7 +82,7 @@ body{
     }
 }
 @media (min-width: 769px){
-body{
+body {
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25% 25%;
     grid-template-areas: 
