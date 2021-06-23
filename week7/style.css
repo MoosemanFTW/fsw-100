@@ -1,0 +1,149 @@
+.container{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+}
+.navBar {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-column: 1/-1;
+    margin: 10px;
+    background:url(https://cdn.switch.com/wp-content/uploads/2020/10/bg-tagline.jpg);background-size:cover;
+    height: 50px;
+    font-family: 'Sigmar One';
+}
+body{
+    position: relative;
+    font-size: 1em;
+    font-weight: 400;
+    
+}
+.main{
+    position: relative;
+    grid-column: 1/-1;
+    background:url(https://cdn.switch.com/wp-content/uploads/2020/10/bg-tagline.jpg);background-size:cover;
+    border: 1.5px solid rgb(90, 69, 69);
+    text-align: center;
+    border-radius: 1rem;
+}
+#art1{
+    position: relative;
+    grid-column: 1/-1;
+    border: 1.5px solid rgb(90, 69, 69);
+    background:url(https://cdn.switch.com/wp-content/uploads/2020/10/bg-tagline.jpg);background-size:cover;
+}
+#art2{
+    position: relative;
+    grid-column: 1/-1;
+    font-family: 'roboto';
+    background:url(https://cdn.switch.com/wp-content/uploads/2020/10/bg-tagline.jpg);background-size:cover;
+}
+#list{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'roboto';
+    line-height: 1.5;
+}
+#cf {
+    
+    position:relative;
+    height:200px;
+    width: 1fr;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #cf img {
+    position:absolute;
+    height: 200px;
+    
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #cf img.top:hover {
+    opacity:0;
+  }
+  /* .img{
+      position: relative;
+      grid-column: 1/-1;
+      width: 50%;
+      height: 50%;
+  }
+  .top{
+    position: absolute;
+    grid-column: 1/-1;
+    grid-row: 6/-1
+    /* width: ;
+    height: ;
+  } */
+
+#sec{
+    
+    position: relative;
+    grid-column: 1/-1;
+    border: 1.5px solid rgb(90, 69, 69);
+    background:url(https://cdn.switch.com/wp-content/uploads/2020/10/bg-tagline.jpg);background-size:cover;
+}
+#foot{
+    position: relative;
+    grid-column: 1/-1;
+    background:url(https://cdn.switch.com/wp-content/uploads/2020/10/bg-tagline.jpg);background-size:cover;
+    
+}
+.breakLine{
+    grid-column: 1/-1;
+}
+.table{
+    
+    position: relative;
+    grid-column: 1/-1;
+    border: 1.5px solid black;
+    background:url(https://cdn.switch.com/wp-content/uploads/2020/10/bg-tagline.jpg);background-size:cover;
+}
+.links{
+    position: relative;
+    color: blue;
+}
+.links:hover{
+    position: relative;
+    color: purple;
+}
+
+
+
+
+
+
+@media(min-width: 600px){
+#cf{
+    width: 100px;
+}
+#art2{
+    grid-column: 1/4;
+}
+.img{
+    grid-column: 4/-1;
+}
+#list{
+    flex-direction: column;
+    align-items: left;
+    
+}
+}
+@media(min-width: 1366px){
+    #art1{
+        grid-column: 1/4;
+    }
+    #art2{
+        grid-column: 4/-1;
+    }
+    .img{
+        grid-column: 3/5;
+        
+    }
+}
