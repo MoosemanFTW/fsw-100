@@ -34,6 +34,7 @@ body{
     grid-column: 1/-1;
     border: 1.5px solid rgb(90, 69, 69);
     background:url(https://cdn.switch.com/wp-content/uploads/2020/10/bg-tagline.jpg);background-size:cover;
+    text-align: center;
 }
 #art2{
     position: relative;
@@ -53,9 +54,7 @@ body{
     
     position:relative;
     height:200px;
-    width: 1fr;
-    margin-left: auto;
-    margin-right: auto;
+    left: 50px;
   }
   
   #cf img {
@@ -68,19 +67,10 @@ body{
   #cf img.top:hover {
     opacity:0;
   }
-  /* .img{
-      position: relative;
-      grid-column: 1/-1;
-      width: 50%;
-      height: 50%;
+.img2{
+    width: 50%;
+
   }
-  .top{
-    position: absolute;
-    grid-column: 1/-1;
-    grid-row: 6/-1
-    /* width: ;
-    height: ;
-  } */
 
 #sec{
     
@@ -121,13 +111,13 @@ body{
 
 @media(min-width: 600px){
 #cf{
-    width: 100px;
+    left: 100px;
 }
 #art2{
-    grid-column: 1/4;
+    grid-column: 1/-1;
 }
-.img{
-    grid-column: 4/-1;
+.img2{
+    
 }
 #list{
     flex-direction: column;
@@ -142,8 +132,11 @@ body{
     #art2{
         grid-column: 4/-1;
     }
-    .img{
-        grid-column: 3/5;
+    .img2{
         
+        
+    }
+    #cf{
+        left: 700px;
     }
 }
